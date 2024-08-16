@@ -1,0 +1,126 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* style body */
+body{
+  width: 100vw;
+  min-height: 100vh;
+  background-color: rgb(255, 255, 255);
+
+}
+/* style main container */
+.main-container{
+  width: 80%;
+  height: 100%;
+  background-color: #FFFFFF;
+  margin: 0 auto;
+  
+}
+/* style head part of main container */
+.header-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2vw;
+  border-bottom: .2vw solid #F6F6F6;
+  color: grey;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  width: 80%; 
+  background-color:#FFFFFF;
+}
+
+/* style user msg inside header container */
+.name-container1 .user-msg{
+  color: grey;
+  letter-spacing: .1rem;
+}
+/* style login button  inside header container */
+.login-container .login-btn{
+ padding: .5vw 2.2vw;
+ border-radius: 2rem;
+ font-size: 1.1rem;
+ color: #7D9CD6;
+ background-color: #EAF2FE;
+}
+/* search bar container style start */
+.search-container{
+  border: .2vw solid #F6F6F6;
+  margin-top: 7rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  position: fixed;
+  z-index: 1000;
+  width: 80%;
+  background-color: rgb(255, 255, 255);
+}
+/* style user input search bar */
+.input-text{
+width: 18rem;
+padding: .6rem .4rem;
+border-radius: 5rem;
+border-color: rgba(128, 128, 128, 0.389);
+border: .2rem;
+font-size: medium;
+border: solid 1px grey;
+background-color: #F4F6F6;
+outline: none;
+}
+.input-text:active{
+ border: none;
+}
+.search-icon{
+  position: absolute;
+  left: 18rem;
+  top: 2.8rem;
+  color: rgba(120, 118, 118, 0.627);
+  font-size: .2rem;
+}
+
+.search-btn{
+  padding: .8rem 2rem;
+  border-radius: 1rem;
+  background-color: #7323DE;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+/* search bar container style end */
+
+/* display msg style when some type on search bar */
+.msg-container{
+  margin-top: .5rem;
+  position: fixed;
+ top: 15rem;
+ z-index: 1000;
+}
+
+/* card container style */
+.card-container{
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  row-gap: 1rem;
+  position: relative;
+  top: 17rem;
+ 
+  
+}
+/* style cards */
+.card-1{
+  width: 340px;
+padding: 1rem;
+background-color: #F4F6F6;
+line-height: 2rem;
+font-size: .79rem;
+border-radius: 1rem;
+color: #60656695;
+}
+b{
+  color: #444648;
+  font-size: 1.2rem;
+}
